@@ -1,6 +1,7 @@
-## Mobile application for e-location
+### Mobile application for e-location
 
 ### init project
+
 ```shell
 $ npm install -g cordova ionic
 $ npm install
