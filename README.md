@@ -8,11 +8,15 @@ Ionic project for JLL 2017
 $ npm install -g cordova ionic
 $ npm install
 ```
+
 ### run
+
 ```shell
 $ ionic cordova run android
 ```
+
 ### build
+
 ```shell
 $ ionic cordova build android
 ```
