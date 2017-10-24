@@ -13,7 +13,6 @@ $ npm install
 $ ionic cordova run android
 ```
 ### build
-
 ```shell
 $ ionic cordova build android
 ```
