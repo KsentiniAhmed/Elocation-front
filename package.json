@@ -41,6 +41,7 @@
     },
     "devDependencies": {
         "@angular/cli": "^1.4.4",
+        "@angular/tsc-wrapped": "^4.4.6",
         "@ionic/app-scripts": "^3.0.0",
         "typescript": "2.5.3"
     },
