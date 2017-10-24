@@ -1,4 +1,6 @@
-### Mobile application for e-location
+## Mobile application for e-location
+
+Ionic project for JLL 2017
 
 ### init project
 
