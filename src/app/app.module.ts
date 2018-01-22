@@ -2,7 +2,6 @@ import {BrowserModule} from '@angular/platform-browser';
 import {NgModule, ErrorHandler} from '@angular/core';
 import {IonicApp, IonicModule, IonicErrorHandler} from 'ionic-angular';
 import {MyApp} from './app.component';
-import {HomePage} from '../pages/home/home';
 import {StatusBar} from '@ionic-native/status-bar';
 import {SplashScreen} from '@ionic-native/splash-screen';
 import {LoginPage} from "../pages/login/login";
@@ -12,6 +11,7 @@ import {Storage, IonicStorageModule} from "@ionic/storage";
 import {JwtHelper, AuthConfig, AuthHttp} from "angular2-jwt";
 import {Http, HttpModule, RequestOptions} from "@angular/http";
 import {AuthProvider} from "../providers/auth/auth";
+import {TabsPage} from "../pages/tabs/tabs";
 
 export function authHttpServiceFactory(http: Http, options: RequestOptions, storage: Storage) {
   const authConfig = new AuthConfig({
@@ -23,9 +23,9 @@ export function authHttpServiceFactory(http: Http, options: RequestOptions, stor
 @NgModule({
   declarations: [
     MyApp,
-    HomePage,
     LoginPage,
-    SignupPage
+    SignupPage,
+    TabsPage
   ],
   imports: [
     BrowserModule,
@@ -40,9 +40,9 @@ export function authHttpServiceFactory(http: Http, options: RequestOptions, stor
   bootstrap: [IonicApp],
   entryComponents: [
     MyApp,
-    HomePage,
     LoginPage,
-    SignupPage
+    SignupPage,
+    TabsPage
   ],
   providers: [
     StatusBar,
